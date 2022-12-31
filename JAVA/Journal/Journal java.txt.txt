@@ -1,0 +1,41 @@
+Q1.Write a java program to implement matrix addition operation
+
+Q2.Create two class one Personal and another is Professional, Personal classhas data member like name, address and contact no, Professional class inherit the properties of Personal class and it has data member like company name, designation, and salary and do the following operation.
+
+Create constructor for base and derived class
+
+Insert data through derived class parameterized constructor.
+
+illustrate the use of this reference and Super.
+
+Display all the information through parent class reference variable.
+
+Q3.Write a program to create three class, Vehicle, Twowheeler and Fourwheeler in Vehicle class data members are company name, and methods are input and display, Twowheeler inherit the properties of Vehical class and data members are name,type(gear,non gear); and methods are input and display. FourWheeler class inherit the properties of Vehical and it's data members are name, model no, fuel type; and method input and display. Use overriding techniques for input and display methods
+
+Q4.Create class Employee, Teaching, Nonteaching In Employee class data members are employee no, name and salary and there are two abstract methods set and get. Teaching class inherit the properties of Employee andits data members are course, designation and its methods are set and get Nonteaching class inherits the properties of Employee class and its datamembers are course and designation and methods are set and get Write a program to display information of employee according to designat on wise.(Usage of abstract class and method.)
+
+Q5.Create two class Insert and Display and store these two classes in InputOutput package. Insert class will perform insertion of string and displayclass will display string. Import these packages in Example class and do insertion and display the string. Create appropriate method for all the operation (Usage of package)
+
+Q6.Write a program to design a String class that perform following operationcontaining String "I Love Java Programming
+
+⚫ Display length of the String
+
+⚫ Display the first character from the String
+
+⚫ Display the last character from the String
+
+⚫ Display the first word in the String
+
+⚫ Reverse the String
+
+⚫ Change the case of String
+
+⚫ Trim the string
+
+Q7.Write a java application which accept 10 students name and age using input Sort names in decending order display the names of students using thread class at interval of 1 (one) secomg
+
+Q8.Write an applet program that gets no. of rectangles from the user (param tag) and draws the rectangles in different position
+
+Q9.Create an applet which displays a solid square having red color. Display name of our college within the square with font style Times new Roman", font size=12 and font color=yellow
+
+Q10.Create an applet to draw the smiley with colour
