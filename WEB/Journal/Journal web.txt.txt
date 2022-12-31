@@ -1,0 +1,62 @@
+Q1.Create an XML file for Employee consisting of Emp_no, Emp_Name, Age, Designation, Salary, Department. Enter at least 10 records.
+
+Q2.Create a Basic calculator with +, -,*,/ operations using jQuery events and methods. Take A and B input in Textbox and display the Answer on a label. 
+
+Q3.Create an HTML Registration form with all basic fields and perform validation using jQuery Events and Effects. Also display proper validation messages in red colour and green colour Hint: (Use blur(), focus().hover(),click(),keypress(),on()methods)
+
+Q4.Perform the following: 
+1. Find the total width of an element (including width, padding, and border) in jQuery
+
+2. Restricts "number"-only input for textboxes including decimal points.
+
+3. Change the button text using jQuery. 4. Remove all CSS classes using jQuery
+
+5. Select value from JSON object using jQuery. 
+
+6. Add the list elements within unordered list elements using jQuery.
+
+7. Delete all table rows except first one using jQuery. 
+
+8. Get the selected value and currently selected text of a dropdown box using jQuery. 
+
+9. Demonstrate speed parameter (duration) in slide-up and slide-down 
+
+10. Hide and show student information using jQuery on single button click
+
+Q5.Create a "E-Commerce website for Electronics" using the following technologies:
+
+1. HTML and CSS
+
+2. JQuery and JavaScript
+
+3. JSON
+
+Use these technologies wherever required.
+a. Create a Registration page (Perform all validation using jQuery)
+
+b. Create a JSON file for all product catalogue (includes ProductName, Price, Image) 
+
+c. Display the product catalogue in HTML using jQuery by fetching data from JSON.
+
+d. Create Product Ordering page where the user can select products to purchase and perform necessary validation 
+
+
+Q6.Display the customer information using the JSON object.
+
+   (use the JSON array with Java Script)
+
+Q7.Write a node.js program to read a employee.txt file line by line.
+
+Q8.Write a node.js program that create the student.txt file and perform the following
+
+operation.
+
+1. Open a file
+
+2. Write in file 3. Read from the file
+
+4. Append the file
+
+5 Update the file
+
+6 Delete the file
