@@ -1,0 +1,79 @@
+401
+ASSIGNMENT-1
+
+Q.1 What is information? Explain benefits and need of Information. 
+
+Q.2 What is information system? Explain types of information system.
+
+Q.3 Define ERP. Explain MIS, BIS and DSS
+
+ASSIGNMENT-2
+
+Q.1 What is TPS? Explain transaction processing activities.
+
+Q.2 Explain Purchase System and Accounting system.
+
+Q.3 Draw DFD of College Management System
+
+402
+ASSIGNMENT-1
+
+1. Explain architecture of IOT and List out Protocols used in IOT?
+
+2. Write a Note on Security for IOT. 
+
+3. Define Sensors, List out Type of Sensors and difference between Sensors & Actuators.
+
+ASSIGNMENT-2
+
+1. What is an IOT Device? Explain basic building blocks of an IOT Device.
+
+2. Write a Case Study on Weather Monitoring System.
+
+3. Write a Note on Following.
+
+	i. Request-Response Communication Model 
+	ii. Push-Pull Communication Model
+	iii.Exclusive Pair Communication Model
+
+403
+ASSIGNMENT-1
+
+1. Explain the Features of Java Programming Language. 
+
+2. What is String? Explain String class methods with example.
+
+3. Define Interface. How interface is implemented? Can Interface be extended?
+
+ASSIGNMENT-2
+
+1. What is Exception? Explain user defined exception with example.
+
+2. What is Thread? Explain Java Thread Model in details.
+
+3. What is Applet? Explain Applet life cycle.
+
+405
+ASSIGNMENT-1
+
+1. Explain Characteristics and syntax of XML
+
+2. Explain jQuery events and effects methods in detail.
+
+3. Give Differences of following:
+
+.remove() and empty() method
+
+.wrap() and unwrap()
+
+JSON and XML
+
+synchronous and asynchronous web application.
+
+ASSIGNMENT-2
+
+1. How JSON array of objects works? Explain in detail with example. 
+
+2. Write a note on AJAX with its architecture.
+
+3. Write a detail note on File System module in Node.js.
