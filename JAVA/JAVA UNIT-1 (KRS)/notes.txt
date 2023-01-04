@@ -1,0 +1,42 @@
+Documentation comments are usually used to write large programs for a project or software application as it helps to create documentation API. These APIs are needed for reference, i.e., which classes, methods, arguments, etc., are used in the code.
+
+To create documentation API, we need to use the javadoc tool. The documentation comments are placed between /** and */.
+
+
+     In Java, the java file name should be always the same as a public class name.
+
+While writing a java program first it is saved as a ".java" file, when it is compiled it forms byte code which is a ".class" file as such that if we made our program file similar to the class it will be comfortable for us to understand without any ambiguity. We are allowed to use any name for a filename only when class is not public. In the case of a public class, we can’t use a different file name.
+The filename must have the same name as the public class name in that file, which is the way to tell the JVM that this is an entry point.
+Suppose when we create a program in which more than one class resides and after compiling a java source file, it will generate the same number of the .class file as classes reside in our program. In this condition, we will not able to easily identify which class need to interpret by java interpreter and which class containing Entry point for the program.
+
+
+Its not mandatory to start a class from public. You can start your class without writing public.
+
+Actually public is an access modifier which provide us the permission to access the data according to their permission.
+
+If we write a class with public then that is visible from anywhere but if it is written written without using the word public then it means the class is accesible within its package.
+
+The four type of access modifier
+
+public access modifier
+The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+
+2. protected access modifier
+
+The protected access modifier is accessible within package and outside the package but through inheritance only.
+
+The protected access modifier can be applied on the data member, method and constructor. It can't be applied on the class.
+
+3. default access modifier
+
+If you don't use any modifier, it is treated as default bydefault. The default modifier is accessible only within package.
+
+4. private access modifier
+
+The private access modifier is accessible only within class.
+
+
+Why main method is always public?
+It is an Access modifier, which specifies from where and who can access the method. Making the main() method public makes it globally available. It is made public so that JVM can invoke it from outside the class as it is not present in the current class
+
+In data input streams the data is obtained as Strings and then converted, while in scanner classes they are obtained as respective data types itself.
