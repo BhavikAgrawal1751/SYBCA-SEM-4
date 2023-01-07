@@ -53,6 +53,23 @@ ASSIGNMENT-2
 
 3. What is Applet? Explain Applet life cycle.
 
+404
+ASSIGNMENT - 1
+
+1.Explain CLR and Class Library in detail.
+
+2. Explain Msgbox. Inputbox. Tree view and Combo Box in detail.
+
+3. Explain Date Related functions using example.
+
+ASSIGNMENT 2
+
+1.Explain Me. MyBase and MyClass keywords in detail with proper example
+
+2. Explain function and procedure with example.
+
+3. Explain Data Adapter and Dataset.
+
 405
 ASSIGNMENT-1
 
