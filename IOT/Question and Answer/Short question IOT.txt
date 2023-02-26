@@ -1,0 +1,109 @@
+(1) Defination of IOT.
+=>  IOT refers to physical devices that embedded with sensors & actutors ,
+	for the purpose of send & recive data without human interaction over the internet.
+
+(2) List out various application loT.
+=>	 (1) Healthcare
+	 (2) Wheater report
+	 (3) Home Equipments 
+	 (4) Public Transport
+	 (5) Water managment
+	 (6) Natural disaster management
+	 (7) Parking
+	 (8) Building
+	 (9) Air polution
+	 etc...
+
+(3) List out various areas where loT application can be used.
+=> (1) Transportation
+   (2) Healthcare
+   (3) Entertainment
+   (4) Agriculture
+   (5) Smart cities
+   (6) Industrial Managment
+   (7) Smart home
+   (8) Sport & fitness
+   (9) Retail
+  (10) Enrgy managment
+
+(4) List out characteristics of IOT.
+=>  	(1) Connectivity
+	(2) self configure
+	(3) security
+	(4) Architecture
+	(5) Intelligence & unique identity
+	(6) Dynamic & self adapting
+	(7) Scalability
+
+(5) list out advantages & disadvantages of IOT
+=> 	
+	Advantages of IoT:
+
+	-> Increased Efficiency
+	-> Improved Accuracy
+	-> Cost Savings
+	-> Enhanced Customer Experience
+	-> Better Insights
+	-> Increased Safety and Security
+	-> Environmental Sustainability
+
+	Disadvantages of IoT:
+
+	-> Security Risks
+	-> Privacy Concerns
+	-> Complexity
+	-> Cost
+	-> Interoperability Issues
+	-> Maintenance
+	-> Dependency
+
+
+(6) What is Request-Response Communication ?
+=> Request-Response communication is a type of communication in which one device or system sends a request 
+for data or action to another device or system, and the latter responds with the requested data or action. 
+In this type of communication, the requesting device or system is called the client, while the responding 
+or system is called the server.
+
+(7) What is Publish-subscribe Communication ?
+=> Publish-Subscribe communication is a type of communication in which publishers 
+send messages to a message broker, and subscribers receive those messages from the 
+message broker. It allows for decoupling of the sender and receiver, and allows for
+flexible and scalable communication.
+
+(8) What is pull-push communication ? 
+=> Push-pull communication is a type of communication in which one system or device actively sends data 
+to another system or device (push), while the other system or device periodically requests data from 
+first system (pull). This communication model is often used in data synchronization and real-time updates.
+
+(9) What is exclusive-pair communication ?
+=> Exclusive-pair communication model is a type of communication in which two devices or systems are connected
+directly and communicate exclusively with each other. This communication model is often used in peer-to-peer 
+networking and requires a dedicated connection between the two devices or systems.
+
+(10) Define TCP & UDP.
+=> TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are 
+both communication protocols used for transmitting data over networks.
+
+	(1) TCP : TCP (Transmission Control Protocol) is a reliable, connection-oriented 
+			 communication protocol used for transmitting data over networks.
+	
+	(2) UDP : UDP (User Datagram Protocol) is a fast, connectionless communication protocol 
+			 used for transmitting data over networks with minimal overhead and no error checking.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
