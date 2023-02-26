@@ -1,0 +1,11 @@
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.AssemblyReference.cache
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.cache
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.CoreCompileInputs.cache
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+E:\STUDY\S.Y.B.C.A\SEM-4\NET\Program\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb

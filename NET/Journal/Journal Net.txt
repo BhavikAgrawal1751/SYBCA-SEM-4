@@ -1,0 +1,32 @@
+Q1.Develop a Tic-Tac-Toe application.
+
+Q2.Display value from Text box, combo box. list box, radio buttons and check box on button click event in Message box.
+
+Q3.Develop a simple calculator application.
+
+Q4.Create Windows form Application to start and stop timer & set interval By user.
+
+Q5.Develop a notepad application.
+
+Q6.Create VB.NET Application to maintain Company Employees Information. Create Following tables. Tblemployeeinfo (EmpNo,EmpName,City,DOJ,Department,Salary).Design Proper form and make necessary validation.Provide insert,update and delete facility for above table. Also Provide search facility on EmpNo.Generate report in DataGridView ti view details of those employees who works in Sales department and salary is less than 15000.
+
+Q7.Create a program that populate combo box with book name. Once user selects particular book name, display corresponding details about cost, number of copies of the book etc. Also delete the record by accepting book no. (Book: BookNo, Name, Author Name, Cost, No Of Copies)
+
+Q8.Create VB.NET Application that maintains cricket players record with the following database table. Players(name, country, no.of matches, no of runs). perform insert, update and delete operation on it. Also display the players information according to country wise.
+
+Q9.Create a VB.NET MDI Application that has following functionalities for a grocery Store.
+ 1) Insert Grocery Items in GroceryMaster table(Item No.Name,MRP,Sell Price, Quantity)
+ 2) Display data in DataGridView and ability to search for specific Item Name.
+ 3) Update, Delete operations for Updating Stock Quantity.
+ 4) Listing of out of Stock Grocery Items in New Form.
+
+Q10.Create a VB.Net application to manage insurance information.
+
+Agent Master:(Agent_code,Agent_name, City)
+
+Policy Master:(Policy_no,agent_code,Customer_name,Start_date.End_date,Policy_amt)
+
+Perform following operations: 
+(a) Provide Insert,Update,Delete and Display facilities. 
+(b) Display policyno.,agent no. And policy holder name in ascending order based on policy amount.
+(c) Display Agent name,his clients' name and total policy amount agent-wise.
