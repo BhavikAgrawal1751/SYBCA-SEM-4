@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#register").submit(function(e) {
+          e.preventDefault();
+          var name = $("#name").val();
+          var email = $("#email").val();
+          var password = $("#password").val();
+          var confirm_password = $("#confirm_password").val();
+
+          if (name == "") {
+            $("#name_error").text("Name is required");
+          } else {
+            $("#name_error").text("");
+          }
+
+          if (email == "") {
+            $("#email_error").text("Email is required");
+          } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+            $("#email_error").text("Invalid email format");
+          } else {
+            $("#email_error").text("");
+          }
+
+          if (password == "") {
+            $("#password_error").text("Password is required");
+          } else if (password.length < 8) {
+            $("#password_error").text("Password must be at least 8 characters");
+          } else {
+            $("#password_error").text("");
+          }
+
+          if (confirm_password == "") {
+            $("#confirm_password_error").text("Confirm password is required");
+          } else if (password != confirm_password) {
+            $("#confirm_password_error").text("Passwords do not match");
+          } else {
+            $("#confirm_password_error").text("");
+          }
+        });
+      });
+    </script>
+    <style>
+      .error {
+    color: red;
+}
+    </style>
+  </head>
+  <body>
+    <form id="register">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <span id="name_error"></span>
+      <br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      <span id="email_error"></span>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <span id="password_error"></span>
+      <br>
+      <label for="confirm_password">Confirm Password:</label>
+      <input type="password" id="confirm_password" name="confirm_password">
+      <span id="confirm_password_error"></span>
+      <br>
+      <input type="submit" value="Register">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Employee Names</title>
+  </head>
+  <body>
+    <h1>Employee Names</h1>
+    <p id="employeeNames"></p>
+    <script>
+      // Define an array of employee names
+      const employeeNames = [
+        { name: "John Doe" },
+        { name: "Jane Smith" },
+        { name: "Bob Johnson" }
+      ];
+      
+      // Convert the employeeNames array to JSON
+      const jsonEmployeeNames = JSON.stringify(employeeNames);
+      
+      // Display the JSON employee names in a <p> element
+      const employeeNamesElement = document.getElementById("employeeNames");
+      employeeNamesElement.textContent = jsonEmployeeNames;
+    </script>
+  </body>
+</html>

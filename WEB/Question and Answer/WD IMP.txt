@@ -1,0 +1,28 @@
+#short Questions
+
+(1) what is prolok section in XML.
+(2) WHAT IS DTD?
+(3) Explain ID and Class Selector in jQuery.
+(4) Set and Get method in jQuery.
+(5) Give difference between wrap and unwrap methods in jQuery. .
+(6) Defination of NPM - Use of Node JS.
+(7) What do you mean by Document Ready Event?
+(8) Diffrence between JS and Node JS.
+(9) Diffrence between XML and JSON.
+(10) What is the difference between writeFile() and appendFile()?
+(11) How to open ,read ,write and delete file using node js ?
+(12) What is JSON ? what is JSON array.
+
+#long questions
+
+(1) what is XML ? Characteristics of XML.
+(2) Feature & advantage of XMl.
+(3) what is Entity References in XML.
+(4) Diffrence between Synchronous & Asynschronous Transmmission.
+(5) Explain synchronous tranmission in details.
+(6) Explain asynchronous transmission in details.
+(7) features of AJAX.
+(8) Effects of jQuery.
+(9) What is node js? Componants of node js .
+(10) Features of Node JS.
+(11) Node JS query string with example.

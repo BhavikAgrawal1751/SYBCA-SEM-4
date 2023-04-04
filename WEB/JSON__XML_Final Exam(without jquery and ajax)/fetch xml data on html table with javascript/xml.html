@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        img {
+            height: 100px;
+        }
+    </style>
+
+</head>
+<table id="tbl" border="1"></table>
+
+<body>
+    <script>
+        var strXML = '<?xml version="1.0" encoding="utf-8"?><menuItems><MenuItem><MenuId>1101</MenuId><FoodCategory>Drink</FoodCategory><FoodItemName>Milk Shake</FoodItemName><FoodIngredient>Milk,Sugar,Natural-Color</FoodIngredient><Price>75</Price><Qty>250ml</Qty><FoodImage>milkshake.jpg</FoodImage></MenuItem><MenuItem><MenuId>1102</MenuId><FoodCategory>Desert</FoodCategory><FoodItemName>Ice Cream</FoodItemName><FoodIngredient>Vegetable oil,milk</FoodIngredient><Price>165</Price><Qty>300ml</Qty><FoodImage>iceCream.jpg</FoodImage></MenuItem></menuItems>';
+
+        var parser = new DOMParser;
+        // The DOMParser interface provides the ability to parse XML or HTML source code from a string into a DOM Document.
+        var doc = parser.parseFromString(strXML, 'text/xml')
+        // The parseFromString() method of the DOMParser interface parses a string containing either HTML or XML, returning an HTMLDocument or an XMLDocument.
+
+        var Items = doc.getElementsByTagName("MenuItem");
+
+        var headerRow = "<tr>"
+        for (let i = 0; i < Items[0].childNodes.length; i++) {
+            headerRow += "<th>" + Items[0].childNodes[i].nodeName + "</th>"
+        }
+        headerRow += "</tr>"
+
+        var data = "<tr>"
+        for (let i = 0; i < Items.length; i++) {
+            for (let j = 0; j < Items[0].childNodes.length; j++) {
+                var header = Items[0].childNodes[j].nodeName
+                if (header == "FoodImage") {
+                    data += '<td><img src="' + Items[i].childNodes[j].childNodes[0].nodeValue + '"></tr>'
+                } else {
+                    data += "<td>" + Items[i].childNodes[j].childNodes[0].nodeValue + "</td > ";
+                }
+            }
+        }
+        data += "</tr>"
+
+        var table = document.getElementById("tbl");
+        table.innerHTML = headerRow + data;
+    </script>
+</body>
+</html>
+    
